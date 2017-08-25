@@ -12,7 +12,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
-      <div>
+      <div className="pv3 ph5 overflow-auto">
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h1>
           {post.frontmatter.title}

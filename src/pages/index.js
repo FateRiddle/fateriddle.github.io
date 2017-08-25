@@ -1,35 +1,26 @@
-import React from "react"
-import Link from "gatsby-link"
-import get from "lodash/get"
-import Helmet from "react-helmet"
+import React from 'react'
+import Link from 'gatsby-link'
+import get from 'lodash/get'
+import Helmet from 'react-helmet'
 
-import Bio from "../components/Bio"
-import { rhythm } from "../utils/typography"
+import Bio from '../components/Bio'
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, "props.data.site.siteMetadata.title")
-    const posts = get(this, "props.data.allMarkdownRemark.edges")
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div>
-        <Helmet title={get(this, "props.data.site.siteMetadata.title")} />
+      <div className="overflow-auto pa4 mw7 center">
+        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Bio />
         {posts.map(post => {
-          if (post.node.path !== "/404/") {
-            const title = get(post, "node.frontmatter.title") || post.node.path
+          if (post.node.path !== '/404/') {
+            const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
               <div>
-                <h3
-                  key={post.node.frontmatter.path}
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link
-                    style={{ boxShadow: "none" }}
-                    to={post.node.frontmatter.path}
-                  >
+                <h3 key={post.node.frontmatter.path} style={{}}>
+                  <Link style={{ boxShadow: 'none' }} to={post.node.frontmatter.path}>
                     {post.node.frontmatter.title}
                   </Link>
                 </h3>
