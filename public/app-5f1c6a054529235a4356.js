@@ -78,7 +78,7 @@ webpackJsonp([15178676390636814000],{
 	exports.json = (_exports$json = {
 	  "layout-index.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"),
 	  "offline-plugin-app-shell-fallback.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---offline-plugin-app-shell-fallback!./.cache/json/offline-plugin-app-shell-fallback.json")
-	}, _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["my-second-post.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---my-second-post!./.cache/json/my-second-post.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["hello-world.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---hello-world!./.cache/json/hello-world.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["hi-folks.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---hi-folks!./.cache/json/hi-folks.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---index!./.cache/json/index.json"), _exports$json);
+	}, _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["hello-world.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---hello-world!./.cache/json/hello-world.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["my-second-post.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---my-second-post!./.cache/json/my-second-post.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["hi-folks.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---hi-folks!./.cache/json/hi-folks.json"), _exports$json["layout-index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---!./.cache/json/layout-index.json"), _exports$json["index.json"] = __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---index!./.cache/json/index.json"), _exports$json);
 	
 	exports.layouts = {
 	  "component---src-layouts-index-js": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=component---src-layouts-index-js!./.cache/layouts/index.js")
@@ -588,8 +588,8 @@ webpackJsonp([15178676390636814000],{
 	  addPagesArray: function addPagesArray(newPages) {
 	    pages = newPages;
 	    var pathPrefix = "";
-	    if (false) {
-	      pathPrefix = __PATH_PREFIX__;
+	    if (true) {
+	      pathPrefix = ("/blog");
 	    }
 	    findPage = (0, _findPage2.default)(newPages, pathPrefix);
 	  },
@@ -821,7 +821,7 @@ webpackJsonp([15178676390636814000],{
 /***/ "./.cache/pages.json":
 /***/ (function(module, exports) {
 
-	module.exports = [{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"offline-plugin-app-shell-fallback.json","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"my-second-post.json","path":"/my-second-post/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"hello-world.json","path":"/hello-world/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"hi-folks.json","path":"/hi-folks/"},{"componentChunkName":"component---src-pages-index-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"index.json","path":"/"}]
+	module.exports = [{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"offline-plugin-app-shell-fallback.json","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"hello-world.json","path":"/hello-world/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"my-second-post.json","path":"/my-second-post/"},{"componentChunkName":"component---src-templates-blog-post-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"hi-folks.json","path":"/hi-folks/"},{"componentChunkName":"component---src-pages-index-js","layout":"index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"index.json","path":"/"}]
 
 /***/ }),
 
@@ -1114,7 +1114,7 @@ webpackJsonp([15178676390636814000],{
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var pathPrefix = "/";
-	if ((undefined)) {
+	if (true) {
 	  pathPrefix = ("/blog") + "/";
 	}
 	
@@ -8204,4 +8204,4 @@ webpackJsonp([15178676390636814000],{
 /***/ })
 
 });
-//# sourceMappingURL=app-e4b1d86a6a740ea7e9b8.js.map
+//# sourceMappingURL=app-5f1c6a054529235a4356.js.map
